@@ -13,14 +13,14 @@ html_handling = "force-trailing-slash"
 not_found_handling = "single-page-application"
 # API + dynamic blog feed go through the Worker before static assets.
 run_worker_first = [
-  "/api/*",
-  "/data/blog/posts.json",
-  "/media/blog/*",
+"/api/*",
+"/data/blog/posts.json",
+"/media/blog/*",
 ]
 
 [[kv_namespaces]]
 binding = "BLOG_KV"
-id = "63a8fcfd7176482f8ca474dad6b880ac"
+id = "754ec697f99e46a6b272caa3f03e8ca2"
 
 [[r2_buckets]]
 binding = "MEDIA"
